@@ -1,0 +1,46 @@
+* {
+    border: none;
+    border-radius: 0;
+    font-weight: bold;
+    min-height: 0;
+    padding: 0;
+    margin: 0;
+}
+
+window#waybar {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+#workspaces button {
+    padding: 0 5px;
+    background-color: #000000;
+    color: #555555;
+}
+
+#workspaces button.active {
+    color: #ffffff;
+    background-color: #000000;
+}
+
+#workspaces button:hover {
+    background-color: #111111;
+    color: #ffffff;
+}
+
+#clock,
+#battery,
+#cpu,
+#memory,
+#network,
+#pulseaudio,
+#window,
+#tray {
+    padding: 0 6px;
+    background-color: #000000;
+    color: #ffffff;
+}
+
+#clock {
+    color: #ffffff;
+}
